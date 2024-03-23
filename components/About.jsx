@@ -229,7 +229,7 @@ function About() {
                             {getData(skillData,'Skills').data.map((item, index)=>{
                                 const {name}=item
                                 return (
-                                    <div className="w-5/6 text-center xl:text-left mx-auto xl:mx-0">
+                                    <div className="w-5/6 text-center xl:text-left mx-auto xl:mx-0" key={index}>
                                       <div className="font-medium">
                                       {name}
                                       </div>

@@ -11,14 +11,14 @@ function Contact() {
           <div className="flex flex-col justify-center">
             <div className="flex items-center gap-x-4 text-primary text-lg mb-4">
               <span className="w-[2px] h-[2px] bg-primary"></span>
-              Say Hello {"\u{1F44B}"}
+              Say Hello {`\u{1F44B}`}
             </div>
             <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
             <p className="subtitle max-w-[400px]">
               Feel free to reach out to discuss your ideas or projects, or if you have any inquiries. I'm here to help and collaborate with you!
             </p>
 
-            
+
           </div>
           {/* illustration */}
           <div className="hidden xl:flex w-full bg-contact_illustration_light dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat"></div>
