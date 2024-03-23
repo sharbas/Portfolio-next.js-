@@ -17,6 +17,8 @@ function Contact() {
             <p className="subtitle max-w-[400px]">
               Feel free to reach out to discuss your ideas or projects, or if you have any inquiries. I'm here to help and collaborate with you!
             </p>
+
+            
           </div>
           {/* illustration */}
           <div className="hidden xl:flex w-full bg-contact_illustration_light dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat"></div>
