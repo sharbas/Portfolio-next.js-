@@ -139,6 +139,7 @@ function About() {
     </div>
   );
 })}
+
                     </div>
                     <div className="flex flex-col gap-y-2">
                         <div className="text-primary">Language Skill</div>
@@ -194,7 +195,7 @@ function About() {
                                 {getData(qualificationData,'education').data.map((item,index)=>{
                                   const {university, qualification, years}=item
                                     return (
-                                        <div className="flex gap-x-8 group " key={index}>
+                                        <div className="flex gap-x-8 group " key={index} >
                                         <div className="h-[84px] w-[1px] bg-border relative ml-2">
                                             <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                         </div>
