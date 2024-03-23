@@ -13,20 +13,23 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Web Design",
     description:
-      "Loren ipsum dole sit amet consetetu adipix=idfd fkfdsj lsmdflk ",
-  },
+      "Utilized Tailwind CSS and Bootstrap to create responsive and visually appealing website designs."
+  }  
+  ,
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Web Development",
     description:
-      "Loren ipsum dole sit amet consetetu adipix=idfd fkfdsj lsmdflk ",
-  },
+      "Proficient in building full-stack web applications using technologies such as React.js for the frontend, and Node.js, Express.js, and MongoDB for the backend."
+  }
+  ,
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "App Development",
+    title: "Deployment",
     description:
-      "Loren ipsum dole sit amet consetetu adipix=idfd fkfdsj lsmdflk ",
-  },
+      "Experienced in deploying applications on AWS EC2 instances, ensuring scalability, reliability, and efficient management of web services."
+  }
+  ,
 ];
 
 function Services() {

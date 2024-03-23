@@ -31,7 +31,7 @@ Web Developer
     <Button className='gap-x-2'>Contact me <Send size={18}/></Button>
 
   </Link>
-  <a download={'/assets/cv/SHARBAS_MERN_Stack_Dev.pdf'} href='/assets/cv/SHARBAS_MERN_Stack_Dev.pdf' >
+  <a download={'SHARBAS_MERN_Stack_Dev.pdf'} href='/assets/cv/SHARBAS_MERN_Stack_Dev.pdf' >
 
     <Button variant='secondary' className='gap-x-2'>Download CV <Download size={18}/></Button>
   </a>
@@ -42,8 +42,8 @@ Web Developer
 
 <div className='hidden xl:flex relative'>
 <Badge containerStyles='absolute top-[24%] -left-[5rem]' icon={<RiBriefcase4Fill/>} endCountNum={1} badgeText='Years Of Experience'/>
-<Badge containerStyles='absolute top-[80%] -left-[1rem]' icon={<RiTodoFill/>} endCountNum={6} endCountText='' badgeText='Finished Projects'/>
-<Badge containerStyles='absolute top-[55%] -right-8' icon={<RiTeamFill/>} endCountNum={9} badgeText='Happy clients'/>
+<Badge containerStyles='absolute top-[80%] -left-[1rem]' icon={<RiTodoFill/>} endCountNum={7} endCountText='' badgeText='Finished Projects'/>
+<Badge containerStyles='absolute top-[55%] -right-8' icon={<RiTeamFill/>} endCountNum={3} badgeText='Happy clients'/>
 
   <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'>
   </div>

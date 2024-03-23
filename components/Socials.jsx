@@ -5,6 +5,7 @@ RiLinkedinFill,
 RiGithubFill,
 RiFacebookFill,
 RiInstagramFill,
+RiSnapchatFill,
 } from 'react-icons/ri'
 import React from 'react'
 
@@ -12,25 +13,26 @@ import Link from 'next/link'
 
 const icons=[
   {
-    path:'/',
+    path:'https://youtube.com/@mohammedsharbas6110?si=-0i3daykfg7NWdgw',
     name:<RiYoutubeFill/>
   },
   {
-    path:'/',
+    path:'https://www.linkedin.com/in/sharbas-mohammed-1567a3200/',
     name:<RiLinkedinFill/>
   },
   {
-    path:'/',
+    path:'https://github.com/sharbas',
     name:<RiGithubFill/>
   },
+  // {
+  //   path:'/',
+  //   name:<RiFacebookFill/>
+  // },
   {
-    path:'/',
-    name:<RiFacebookFill/>
-  },
-  {
-    path:'/',
+    path:'https://www.instagram.com/sharbas_mohd_?igsh=MXBleDg2ZWp0OXRl',
     name:<RiInstagramFill/>
   },
+  
 ]
 
 function Socials({containerStyles,iconsStyles}) {
