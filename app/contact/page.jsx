@@ -1,5 +1,6 @@
 import Form from "@/components/Form";
 import { MailIcon, HomeIcon, PhoneIcon } from "lucide-react";
+
 function Contact() {
   return (
     <section>
@@ -14,7 +15,7 @@ function Contact() {
             </div>
             <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
             <p className="subtitle max-w-[400px]">
-            Feel free to reach out to discuss your ideas or projects, or if you have any inquiries. I'm here to help and collaborate with you!
+              Feel free to reach out to discuss your ideas or projects, or if you have any inquiries. I&apos;m here to help and collaborate with you!
             </p>
           </div>
           {/* illustration */}
@@ -25,19 +26,19 @@ function Contact() {
           {/* info text  */}
           <div className="flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base xl:text-lg">
             {/* mail  */}
-            <div className="flex items=center gap-x-8">
+            <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary"/>
-            <div>iam.sharbas.mohammed@gmail.com</div>
+              <div>iam.sharbas.mohammed@gmail.com</div>
             </div>
-              {/* address  */}
-              <div className="flex items=center gap-x-8">
+            {/* address  */}
+            <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary"/>
-            <div>676320, Pandimuttam, Tirur, Malappuram, Kerala, India</div>
+              <div>676320, Pandimuttam, Tirur, Malappuram, Kerala, India</div>
             </div>
-              {/* phone  */}
-              <div className="flex items=center gap-x-8">
+            {/* phone  */}
+            <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary"/>
-            <div>+91 8086548059</div>
+              <div>+91 8086548059</div>
             </div>
           </div>
           <Form/>

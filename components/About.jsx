@@ -131,12 +131,13 @@ function About() {
                     <p className="subtitle max-w-xl mx-auto xl:mx-0 ">I specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences. </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
-{infoData.map((item,index)=>{
-return <div className="flex items-center gap-x-4 mx-auto xl:mx-0" key={index}>
-  <div className="text-primary">{item.icon}</div>
-  <div>{item.text}</div>
- 
- </div>
+                    {infoData.map((item, index) => {
+  return (
+    <div className="flex items-center gap-x-4 mx-auto xl:mx-0" key={index}>
+      <div className="text-primary">{item.icon}</div>
+      <div>{item.text}</div>
+    </div>
+  );
 })}
                     </div>
                     <div className="flex flex-col gap-y-2">
@@ -163,22 +164,21 @@ return <div className="flex items-center gap-x-4 mx-auto xl:mx-0" key={index}>
                                </div>
                                {/* list */}
                                <div className="flex flex-col gap-y-8">
-                                {getData(qualificationData,'experience').data.map((item,index)=>{
-                                  const {company, role, years}=item
-                                    return (
-                                        <div className="flex gap-x-8 group " key={index}>
-                                        <div className="h-[84px] w-[1px] bg-border relative ml-2">
-                                            <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
-                                        </div>
-                                        <div>
-                                        <div className="font-semibold text-xl leading-none mb-2">{company}</div>
-                                        <div className="text-lg leading-none text-muted-foreground mb-4">{role}</div>
-                                        <div className="text-base font-medium ">{years}</div>
-                                        </div>
-
-                                        </div>
-                                    )
-                                })}
+                               {getData(qualificationData, 'experience').data.map((item, index) => {
+  const { company, role, years } = item;
+  return (
+    <div className="flex gap-x-8 group" key={index}>
+      <div className="h-[84px] w-[1px] bg-border relative ml-2">
+        <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+      </div>
+      <div>
+        <div className="font-semibold text-xl leading-none mb-2">{company}</div>
+        <div className="text-lg leading-none text-muted-foreground mb-4">{role}</div>
+        <div className="text-base font-medium">{years}</div>
+      </div>
+    </div>
+  );
+})}
                                </div>
                             </div>
                                  {/* education */}
@@ -241,12 +241,10 @@ return <div className="flex items-center gap-x-4 mx-auto xl:mx-0" key={index}>
                        <div className="border-b border-border mb-4 "></div>
                              {/* tool list */}
                              <div className="flex gap-x-8 justify-center xl:justify-start">
-                                {getData(skillData,'tools').data.map((item,index)=>{
-                                    const {imgPath}=item
-                                    return <div key={index}>
-                                        <Image  src={imgPath} width={48} height={48} alt="" priority/>
-                                    </div>
-                                })}
+                             {getData(skillData, 'tools').data.map((item, index) => {
+  const { imgPath } = item;
+  return <div key={index}><Image src={imgPath} width={48} height={48} alt="" priority/></div>;
+})}
                              </div>
                        </div>
                     </div>

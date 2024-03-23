@@ -1,10 +1,10 @@
-'use client'
+'use client';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { Button } from "./ui/button"
-import { Input } from "./ui/input"
-import { Textarea } from "./ui/textarea"
-import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react"
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
+import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
 
 function Form() {
   const form = useRef();
@@ -23,10 +23,10 @@ function Form() {
           setToastMessage("Email sent successfully!");
           // Clear input fields
           form.current.reset();
-                   // Hide toast after 5 seconds
-                   setTimeout(() => {
-                    setToastMessage("");
-                  }, 5000);
+          // Hide toast after 5 seconds
+          setTimeout(() => {
+            setToastMessage("");
+          }, 5000);
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -62,3 +62,4 @@ function Form() {
 }
 
 export default Form;
+
