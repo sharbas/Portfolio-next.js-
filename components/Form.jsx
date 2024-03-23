@@ -49,7 +49,7 @@ function Form() {
       </div>
       {/* input  */}
       <div className="relative flex items-center">
-      <Textarea name='message' placeholder="Type Your Message Here." />
+        <Textarea name='message' placeholder="Type Your Message Here." />
         <MessageSquare className="absolute top-4 right-6" size={20} />
       </div>
       <Button type='submit' className='flex items-center gap-x-1  max-w-[166px]'>Let's Talk
@@ -62,4 +62,3 @@ function Form() {
 }
 
 export default Form;
-

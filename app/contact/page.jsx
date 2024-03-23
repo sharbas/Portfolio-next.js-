@@ -15,7 +15,7 @@ function Contact() {
             </div>
             <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
             <p className="subtitle max-w-[400px]">
-              Feel free to reach out to discuss your ideas or projects, or if you have any inquiries. I&apos;m here to help and collaborate with you!
+              Feel free to reach out to discuss your ideas or projects, or if you have any inquiries. I'm here to help and collaborate with you!
             </p>
           </div>
           {/* illustration */}
