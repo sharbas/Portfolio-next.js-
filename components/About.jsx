@@ -28,7 +28,7 @@ const infoData=[
 },
 {
     icon:<Calendar size={20}/>,
-    text:'Born on 01 Nav, 2000'
+    text:'Born on 01 Nov, 2000'
 },
 {
     icon:<GraduationCap size={20}/>,
@@ -49,7 +49,7 @@ data:[
       years:'2017-2029'
     },
     {
-    university:'Alaggapa University',
+    university:'Alagappa University',
   qualification:'Bachelor of Computer Application',
   years:'2019-2022'
 },
