@@ -127,7 +127,7 @@ function About() {
                <div className="text-lg mt-12 xl:mt-8">
                 <TabsContent value='personal'>
                 <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">Unmatched Service Qualify for Over 10 years</h3>
+                    <h3 className="h3 mb-4">Unmatched Service Qualify for Over years</h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0 ">I specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences. </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
